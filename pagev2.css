@@ -1,0 +1,137 @@
+@charset "utf-8";
+#grid{
+    display : grid;
+    grid-template-areas:
+        "header1 header2 header3"
+        "  menu1  menu2   menu3 "
+        "    a     main    b    "
+        "   none   none   none  "
+        "footer1 footer2 footer3";
+}
+.header2 {
+    grid-area : header2;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.menu2{
+    grid-area: menu2;
+    text-align: center;
+    border-bottom : 1px solid black;
+    display : flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+}
+.iu{
+    float: left;
+}
+.gst{
+    float: left;
+}
+.origami{
+    float: left;
+}
+.sidebar-a {
+    grid-area : a; 
+}
+#main-content {
+    grid-area : main; 
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 0px 10px 0px;
+}
+.sidebar-b {
+    grid-area : b; 
+}
+.none{
+    grid-area: none;
+    height: 1rem;
+}
+.footer2 {
+    grid-area : footer2;
+    text-align: center;
+    border-top: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+table{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+th, td{
+    padding: 0rem 1rem 1rem 1rem;
+
+}
+iframe{
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+}
+
+.ad{
+    width: 31.8rem;
+}
+.last{
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+}
+/*
+@media (max-width: 700px) {
+    body{
+        background-color: white;
+        margin: 0px;
+    }
+    .outlinediv{
+        display: none;
+    }
+    h1{
+        border-bottom: none;
+    }
+    border-right{
+        display: none;
+    }
+}
+@media (max-width: 1350px){
+    table{
+        display: none;
+    }
+}
+th{
+    border-bottom: 3px solid yellow;
+    text-align: left;
+    line-height: 20px;
+    border-bottom-width: 20px;
+}
+table{
+    margin-top: 20px;
+}
+img{
+    max-width: 40%;
+    height: auto;
+}
+
+.origamii{
+    font-weight: normal;
+    border-right: 3px solid yellow;
+    border-right-width: 20px;
+    border-bottom: 10px;    
+}
+.origamiii{
+    font-weight: normal;
+    border-right: 3px solid yellow;
+    border-right-width: 20px;
+}
+.sts{
+    max-width: 100%;
+    height: auto;
+}
+.ad{
+    max-width: 70%;
+    height: auto;
+}
+.aa{
+    border-right: 3px solid yellow;
+    border-right-width: 20px;
+} 
+*/
